@@ -1,4 +1,4 @@
-kaas_duur = "emmerthaler"
+kaas_duur = "emmerthaler" 
 kaas_nietduur = "leerdammer"
 steenja = "pammigiano regiano"
 steennee = "goudsekaas"
