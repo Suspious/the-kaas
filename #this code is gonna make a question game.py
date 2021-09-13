@@ -69,6 +69,12 @@ while True:
     if vraag3 == "a":
         print("correct")
         score = score +1
+        vraag19 = input("is de aarde rond")
+        if vraag19 == "ja":
+            print("correct")
+            score = score +1
+        else:
+            print("fout")
         break
       
     if vraag3 =="b":
@@ -88,6 +94,15 @@ while True:
     if Vraag4 =="c":
         print("correct")
         score = score + 1
+        print('a zwart')
+        print('b blauw')
+        print("c geel")
+        jan = input("welke kleur gebruikt nike")
+        if jan =="ja":
+            print("correct")
+            score = score +1
+        else:
+            print("fout")
         break
     if Vraag4 =="b":
         print("fout")
@@ -115,6 +130,12 @@ while True:
         break
     if vraag6 =="d":
         print("fout")
+        vraag20 = input("hoeveel strepen heeft het adidas logo? ")
+        if vraag20 =="3":
+            print("correct")
+        else:
+            print("fout")
+            
         break
     else:
         print("verkeerd getypt")
